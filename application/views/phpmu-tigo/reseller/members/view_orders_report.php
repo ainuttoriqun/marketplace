@@ -11,7 +11,7 @@
                   <tr>
                     <th width="20px">No</th>
                     <th>Kode Transaksi</th>
-                    <th>Nama Lapak</th>
+                    <th>Nama Toko</th>
                     <th>Subtotal</th>
                     <th>Ongkir</th>
                     <th>Status</th>

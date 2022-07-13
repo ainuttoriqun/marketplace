@@ -69,7 +69,7 @@
         </div>
 
         <div role='tabpanel' class='tab-pane fade' id='reseller' aria-labelledby='reseller-tab'>
-        <div class='alert alert-warning'><b>PENTING!</b> Lengkapi Form dibawah ini untuk mendaftarkan diri sebagai <b>Pelapak</b>, harap di isi dengan data yang sebenar-benarnya, Terima kasih...</div>
+        <div class='alert alert-warning'><b>PENTING!</b> Lengkapi Form dibawah ini untuk mendaftarkan diri sebagai <b>Seller</b>, harap di isi dengan data yang sebenar-benarnya, Terima kasih...</div>
             <div class="block-content">
                 <div id="writecomment">
                     <form action="<?php echo base_url(); ?>auth/register" method="POST" id="form_komentar">

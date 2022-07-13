@@ -21,7 +21,7 @@
                     <div align="center">
                         <input name='login' type="submit" class="btn btn-primary" value="Login"> <a href="#" class="btn btn-default" data-toggle='modal' data-target='#lupass'>Lupa Password?</a> <br><br> Anda Belum Punya akun? <a href="<?php echo base_url(); ?>auth/register" title="Mari gabung bersama Kami" class="link">Daftar Disini.</a>
                     </div>
-                    <center><a href='<?php echo base_url(); ?>reseller'>Login Reseller</a><center>
+                    <center><a href='<?php echo base_url(); ?>reseller'>Login Seller</a><center>
                 </form>
             </div>
 
