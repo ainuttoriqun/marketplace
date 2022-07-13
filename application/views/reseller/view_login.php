@@ -21,7 +21,7 @@
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="#"><b>Pelapak </b> Login</a>
+        <a href="#"><b>Seller </b> Login</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Silahkan Login Pada Form dibawah ini</p>

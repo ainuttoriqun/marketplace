@@ -60,7 +60,7 @@ $set = $this->db->query("SELECT * FROM rb_setting where aktif='Y'")->row_array()
               <div class="box box-info">
                 <div class="box-header">
                 <i class="fa fa-th-list"></i>
-                <h3 class="box-title">Selamat datang Reseller!</h3>
+                <h3 class="box-title">Selamat datang Seller!</h3>
                     <div class="box-tools pull-right">
                        <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                         <button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
@@ -75,7 +75,7 @@ $set = $this->db->query("SELECT * FROM rb_setting where aktif='Y'")->row_array()
                       <dl class="dl-horizontal">
                           <dt>Username</dt>   <dd><?php echo $rows['username']; ?></dd>
                           <dt>Password</dt>   <dd>********************</dd>
-                          <dt>Nama Reseller</dt>   <dd><?php echo $rows['nama_reseller']; ?></dd>
+                          <dt>Nama seller</dt>   <dd><?php echo $rows['nama_reseller']; ?></dd>
                           <dt>Jenis Kelamin</dt>   <dd><?php echo $rows['jenis_kelamin']; ?></dd>
                           <dt>Alamat</dt>   <dd><?php echo $rows['alamat_lengkap']; ?></dd>
                           <dt>No Telp/Hp</dt>   <dd><?php echo $rows['no_telpon']; ?></dd>

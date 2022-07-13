@@ -1,4 +1,4 @@
-<p class='sidebar-title block-title'>Daftar Semua Pelapak</p>
+<p class='sidebar-title block-title'>Daftar Semua Toko</p>
   <?php 
     $attributes = array('class'=>'pull-right','role'=>'form','style'=>'width:100%;');
     echo form_open_multipart('produk/reseller',$attributes); 

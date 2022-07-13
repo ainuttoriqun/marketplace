@@ -1,7 +1,7 @@
             <div class="col-xs-12">  
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Daftar Semua reseller</h3>
+                  <h3 class="box-title">Daftar Semua Seller</h3>
                   <a class='pull-right btn btn-primary btn-sm' href='<?php echo base_url(); ?>administrator/tambah_reseller'>Tambahkan Data</a>
                 </div><!-- /.box-header -->
                 <div class="box-body">
@@ -9,7 +9,7 @@
                     <thead>
                       <tr>
                         <th style='width:20px'>No</th>
-                        <th>Nama Reseller</th>
+                        <th>Nama Seller</th>
                         <th>Alamat Email</th>
                         <th>No Telpon</th>
                         <th>Jenis Kelamin</th>

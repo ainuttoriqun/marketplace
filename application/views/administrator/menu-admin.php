@@ -17,7 +17,7 @@
             <li class="header" style='text-transform:uppercase;'>MENU <span class='uppercase'><?php echo $this->session->level; ?></span></li>
             <li><a href="<?php echo base_url().$this->uri->segment(1); ?>/home"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
             <li class="treeview">
-              <a href="#"><i class="fa fa-shopping-cart"></i> <span>Toko / Reseller</span><i class="fa fa-angle-left pull-right"></i></a>
+              <a href="#"><i class="fa fa-shopping-cart"></i> <span>Toko / Seller</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <li class="treeview">
                 <a href="#"><i class="fa fa-circle-o"></i> Master <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
@@ -30,7 +30,7 @@
 
                     $cek=$this->model_app->umenu_akses("reseller",$this->session->id_session);
                     if($cek==1 OR $this->session->level=='admin'){
-                      echo "<li><a href='".base_url().$this->uri->segment(1)."/reseller'><i class='fa fa-circle-o'></i> Data Reseller</a></li>";
+                      echo "<li><a href='".base_url().$this->uri->segment(1)."/reseller'><i class='fa fa-circle-o'></i> Data Seller</a></li>";
                     }
 
                     $cek=$this->model_app->umenu_akses("supplier",$this->session->id_session);
@@ -77,12 +77,12 @@
 
                     $cek=$this->model_app->umenu_akses("penjualan",$this->session->id_session);
                     if($cek==1 OR $this->session->level=='admin'){
-                      echo "<li><a href='".base_url().$this->uri->segment(1)."/penjualan'><i class='fa fa-circle-o'></i> Penjualan ke Reseller</a></li>";
+                      echo "<li><a href='".base_url().$this->uri->segment(1)."/penjualan'><i class='fa fa-circle-o'></i> Penjualan ke Seller</a></li>";
                     }
 
                     $cek=$this->model_app->umenu_akses("pembayaran_reseller",$this->session->id_session);
                     if($cek==1 OR $this->session->level=='admin'){
-                      echo "<li><a href='".base_url().$this->uri->segment(1)."/pembayaran_reseller'><i class='fa fa-circle-o'></i> Pembayaran Reseller</a></li>";
+                      echo "<li><a href='".base_url().$this->uri->segment(1)."/pembayaran_reseller'><i class='fa fa-circle-o'></i> Pembayaran Seller</a></li>";
                     }
                   ?>
                 </ul>
@@ -94,7 +94,7 @@
                   <?php 
                     $cek=$this->model_app->umenu_akses("keuangan",$this->session->id_session);
                     if($cek==1 OR $this->session->level=='admin'){
-                      echo "<li><a href='".base_url().$this->uri->segment(1)."/keuangan'><i class='fa fa-circle-o'></i> Keuangan Reseller</a></li>";
+                      echo "<li><a href='".base_url().$this->uri->segment(1)."/keuangan'><i class='fa fa-circle-o'></i> Keuangan Seller</a></li>";
                     }
 
                     $cek=$this->model_app->umenu_akses("history_referral",$this->session->id_session);
@@ -133,7 +133,7 @@
               ?>
               </ul>
             </li>
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-pencil"></i> <span>Modul Berita</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <?php
@@ -173,9 +173,9 @@
                 }
               ?>
               </ul>
-            </li>
+            </li> -->
             
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-play"></i> <span>Modul Video</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <?php
@@ -200,7 +200,7 @@
                 }
               ?>
               </ul>
-            </li>
+            </li> -->
 
             <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-blackboard"></i> <span>Modul Iklan</span><i class="fa fa-angle-left pull-right"></i></a>
@@ -251,7 +251,7 @@
               </ul>
             </li>
 
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-blackboard"></i> <span>Modul Interaksi</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
               <?php
@@ -291,7 +291,7 @@
                 }
               ?>
               </ul>
-            </li>
+            </li> -->
 
             <li class="treeview">
               <a href="#"><i class="fa fa-users"></i> <span>Modul Users</span><i class="fa fa-angle-left pull-right"></i></a>

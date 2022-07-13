@@ -1,4 +1,4 @@
-<script type="text/javascript" src="<?php echo base_url(); ?>asset/admin/plugins/jQuery/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url(); ?>asset/admin/plugins/jQuery/jquery.min.js"></script>
 <script type="text/javascript">
     $(function () {
         $('#container').highcharts({
@@ -25,9 +25,9 @@
             }
         });
     });
-</script>
+</script> -->
 
-<div class="box box-success">
+<!-- <div class="box box-success">
     <div class="box-header">
     <i class="fa fa-th-list"></i>
     <h3 class="box-title">Grafik Kunjungan</h3>
@@ -58,6 +58,8 @@
         ?>
     </tbody>
 </table>
-</div><!-- /.chat -->
-</div><!-- /.box (chat box) -->
+</div>
+</div> -->
 
+<!-- 61/.chat -->
+<!-- 62/.box (chat box) -->

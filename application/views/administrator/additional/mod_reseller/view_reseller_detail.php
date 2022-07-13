@@ -1,7 +1,7 @@
       <div class='col-md-12'>
               <div class='box box-info'>
                 <div class='box-header with-border'>
-                  <h3 class='box-title'>Detail Data Reseller</h3>
+                  <h3 class='box-title'>Detail Data Seller</h3>
                 </div>
                 <div class='box-body'>
 
@@ -26,7 +26,7 @@
                               <tr bgcolor='#e3e3e3'><th rowspan='13' width='110px'><center><?php echo "<img style='border:1px solid #cecece; height:85px; width:85px' src='".base_url()."asset/foto_user/$foto_user' class='img-circle img-thumbnail'>"; ?></center></th></tr>
                               <tr><th width='130px' scope='row'>Username</th> <td><?php echo $rows['username']?></td></tr>
                               <tr><th scope='row'>Password</th> <td>xxxxxxxxxxxxxxx</td></tr>
-                              <tr><th scope='row'>Nama Reseller</th> <td><?php echo $rows['nama_reseller']?></td></tr>
+                              <tr><th scope='row'>Nama Seller</th> <td><?php echo $rows['nama_reseller']?></td></tr>
                               <tr><th scope='row'>Jenis Kelamin</th> <td><?php echo $rows['jenis_kelamin']?></td></tr>
                               <tr><th scope='row'>Kota</th> <td><?php echo $ko['nama_kota']?></td></tr>
                               <tr><th scope='row'>Alamat Lengkap</th> <td><?php echo $rows['alamat_lengkap']?></td></tr>
