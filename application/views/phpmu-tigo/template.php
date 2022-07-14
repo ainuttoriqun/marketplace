@@ -128,7 +128,7 @@
 
 					if ($this->uri->segment(1)=='' OR $this->uri->segment(1)=='main'){
 						echo "<div class='breaking-news'>
-							<span class='the-title'>HOT News</span>
+							<span class='the-title'>Produk Kami</span>
 							<ul>";
 								$terkini = $this->model_utama->view_where_ordering_limit('berita',array('status' => 'Y'),'id_berita','DESC',0,10);
 								foreach ($terkini->result_array() as $row) {

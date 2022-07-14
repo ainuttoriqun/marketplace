@@ -11,15 +11,15 @@ a.small-button,
 #wp-calendar td#today,
 .small-button,
 #writecomment p input[type=submit] {
-	background-color: #d71149;
+	background-color: #FF8C00;
 }
 .list-title,
 a:hover,
 a.mobile-menu,
 .widget .meta a {
-	color: #d71149;
+	color: #FF8C00;
 }
 .list-title {
-	border-bottom: 2px solid #d71149;
+	border-bottom: 2px solid #FF8C00;
 }
 

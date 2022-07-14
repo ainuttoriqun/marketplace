@@ -4,8 +4,8 @@
       <span class="info-box-icon bg-red"><i class="fa fa-users"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Users</span>
-        <?php $jmld = $this->model_app->view('users')->num_rows(); ?>
-        <span class="info-box-number"><?php echo $jmld; ?></span>
+        <!-- <?php $jmld = $this->model_app->view('users')->num_rows(); ?>
+        <span class="info-box-number"><?php echo $jmld; ?></span> -->
       </div><!-- /.info-box-content -->
     </div><!-- /.info-box -->
   </div><!-- /.col -->
@@ -17,8 +17,8 @@
     <span class="info-box-icon bg-green"><i class="fa fa-users"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Data Konsumen</span>
-        <?php $jmld = $this->model_app->view('users')->num_rows(); ?>
-        <span class="info-box-number"><?php echo $jmld; ?></span>
+        <!-- <?php $jmld = $this->model_app->view('users')->num_rows(); ?>
+        <span class="info-box-number"><?php echo $jmld; ?></span> -->
       </div><!-- /.info-box-content -->
     </div><!-- /.info-box -->
   </div><!-- /.col -->
@@ -30,8 +30,8 @@
       <span class="info-box-icon bg-aqua"><i class="fa fa-users"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Data Seller</span>
-        <?php $jmla = $this->model_app->view('berita')->num_rows(); ?>
-        <span class="info-box-number"><?php echo $jmla; ?></span>
+        <!-- <?php $jmla = $this->model_app->view('berita')->num_rows(); ?>
+        <span class="info-box-number"><?php echo $jmla; ?></span> -->
       </div><!-- /.info-box-content -->
     </div><!-- /.info-box -->
   </div><!-- /.col -->
@@ -44,8 +44,8 @@
       <span class="info-box-icon bg-green"><i class="fa fa-file"></i></span>
       <div class="info-box-content">
         <span class="info-box-text">Keuangan Seller</span>
-        <?php $jmlb = $this->model_app->view('halamanstatis')->num_rows(); ?>
-        <span class="info-box-number"><?php echo $jmlb; ?></span>
+        <!-- <?php $jmlb = $this->model_app->view('halamanstatis')->num_rows(); ?>
+        <span class="info-box-number"><?php echo $jmlb; ?></span> -->
       </div><!-- /.info-box-content -->
     </div><!-- /.info-box -->
   </div><!-- /.col -->

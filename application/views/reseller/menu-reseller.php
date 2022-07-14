@@ -15,7 +15,7 @@
           ?>
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
-            <li class="header" style='text-transform:uppercase; border-bottom:2px solid #00c0ef'>MENU PELAPAK</li>
+            <li class="header" style='text-transform:uppercase; border-bottom:2px solid #00c0ef'>MENU SELLER</li>
             <li><a href="<?php echo base_url().$this->uri->segment(1); ?>/home"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
             <li class="treeview">
                 <a href="#"><i class="fa fa-th-large"></i> <span>Referensi</span> <i class="fa fa-angle-left pull-right"></i></a>
